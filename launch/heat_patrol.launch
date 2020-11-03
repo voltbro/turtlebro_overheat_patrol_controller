@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="turtlebro_overheat_patrol_controller" type="heat_controller.py" name="heat_controller" output="screen">
+     <!--   <param name="wait_after_detection" value="10" />
+        <param name="threshold" value="40"/>
+        <param name="heat_pixels_topic" value="amg88xx_pixels"/> -->
+    </node>
+</launch>
