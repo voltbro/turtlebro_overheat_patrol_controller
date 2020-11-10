@@ -23,5 +23,5 @@ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release 
 
 Launch only detector node:
 ```
-roslaunch turtlebro_overheat_sensor heat_sensor.launch
+roslaunch turtlebro_overheat_patrol_controller heat_sensor.launch
 ```
